@@ -64,3 +64,154 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	border-block: block;
+	max-width: 100%;
+}
+.container{
+	border: 2px solid black;
+}
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	word-spacing: 55px;
+	margin: 3% auto 1%;
+	color:gray;
+	text-align: center;
+	width: 80%;
+}
+header{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+h1{
+	font-size: 30px;
+}
+.services-header-img{
+	width: 55%;
+	margin: 0 auto;
+}
+.head{
+	justify-content: center;
+	margin: 2% auto 3%;
+	width: 55%;
+}
+section{
+	border: 1px solid black;
+}
+.top{
+	display: flex;
+	justify-content: center;
+	margin: 2% 0;
+}
+.middle{
+	display: flex;
+	justify-content: center;
+	margin: 2% 0;
+}
+.design{
+	width: 24%;
+	margin: 0% 4%;
+	background: lightgray;
+	border: 1px solid black;
+	padding: 1%;
+}
+.ux{
+	width: 24%;
+	margin: 0% 4%;
+	background: lightgray;
+	border: 1px solid black;
+	padding: 1%;
+}
+button{
+	border: 1px solid black;
+	margin: 4% auto;
+	font-size: 10px;
+	padding: 5%;
+	border-radius: 7px;
+}
+.market{
+	width: 24%;
+	margin: 0% 4%;
+	background: lightgray;
+	border: 1px solid black;
+	padding: 1%;
+}
+.web{
+	width: 24%;
+	margin: 0% 4%;
+	background: lightgray;
+	border: 1px solid black;
+	padding: 1%;
+}
+.ios{
+	width: 24%;
+	margin: 0% 4%;
+	background: lightgray;
+	border: 1px solid black;
+	padding: 1%;
+}
+.android{
+	width: 24%;
+	margin: 0% 4%;
+	background: lightgray;
+	border: 1px solid black;
+	padding: 1%;
+}
+#lefttop{
+	width: 22%;
+}
+#righttop{
+	width: 22%
+}
+.middle-img{
+	display: flex;
+	justify-content: center;
+	margin: 2% auto;
+}
+.bottom{
+	display: flex;
+	justify-content: center;
+	margin: 2% 0;
+}
+.service{
+	width: 15%;
+}
+.product{
+	width: 15%;
+}
+.vision{
+	width: 15%;
+}
+footer{
+	margin: 2% auto;
+    display: flex;
+    justify-content: center;
+}
+.fact{
+	width: 25%;
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
+	line-height: 2;
+}
+ul{
+	margin: 0 3%;
+}
+address{
+	display: flex;
+	flex-direction: column;
+	margin: 2% 14%;
+}
+.services-info-img{
+	margin-left: 9%;
+}
+.adr{
+	margin:1% 0;
+	width: 10%;
+}
+h6{
+	text-align: center;
+	margin: 6% 0 1%;
+}
